@@ -7,19 +7,20 @@ public class car {
     private double engine;
     private int door;
 
-    public car(String color, String model, double engine, int door) {
-        this.color = color;
-        this.model = model;
-        this.engine = engine;
-        this.door = door;
-
-    }
+//    constructor
     public car() {
 //        this.color = "No information";
 //        this.model = "No information";
 //        this.engine = 0;
 //        this.door = 0;
         this("No information","No information", 0, 0 );
+    }
+    public car(String color, String model, double engine, int door) {
+        this.color = color;
+        this.model = model;
+        this.engine = engine;
+        this.door = door;
+
     }
     public car(String color, String model) {
         this(color, model, 0, 0);

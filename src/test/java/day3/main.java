@@ -12,6 +12,8 @@ public class main {
         car1.door = 4;
 
         System.out.println("Car model is " + car1.model);
+        System.out.println("Car color is " + car1.color);
+        System.out.println("Car has " + car1.door + " doors");
 
     }
 }
