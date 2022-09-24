@@ -1,9 +1,8 @@
 package day1;
 
-import java.util.Locale;
 import java.util.Scanner;
 
-public class comparisonOperators {
+public class ComparisonOperators {
 
     public static void main(String[] args) {
 

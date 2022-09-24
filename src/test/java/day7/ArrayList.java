@@ -1,12 +1,10 @@
 package day7;
 
-import java.util.ArrayList;
-
-public class arrayList {
+public class ArrayList {
 
     public static void main(String[] args) {
 
-        ArrayList<String> groups = new ArrayList<String>();
+        java.util.ArrayList<String> groups = new java.util.ArrayList<String>();
 
         groups.add("Metallica");
         groups.add("Iron Maiden");
@@ -39,8 +37,8 @@ public class arrayList {
         }
 
 //        clone
-        ArrayList metalicaGroups = new ArrayList<String>();
-        metalicaGroups = (ArrayList)groups.clone();
+        java.util.ArrayList metalicaGroups = new java.util.ArrayList<String>();
+        metalicaGroups = (java.util.ArrayList)groups.clone();
 
         for (int i=0; i< metalicaGroups.size(); i++) {
             System.out.println(i + " Element is " + metalicaGroups.get(i));

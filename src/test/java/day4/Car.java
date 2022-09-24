@@ -1,6 +1,6 @@
 package day4;
 
-public class car {
+public class Car {
 
     private String color;
     private String model;

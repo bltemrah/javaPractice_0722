@@ -1,12 +1,10 @@
 package day4;
 
-import day4.car;
-
-public class main {
+public class Main {
 
     public static void main(String[] args) {
 
-        car car1 = new car();
+        Car car1 = new Car();
 
         car1.setColor("Red");
         car1.setDoor(4);

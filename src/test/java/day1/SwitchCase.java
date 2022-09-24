@@ -2,7 +2,7 @@ package day1;
 
 import java.util.Scanner;
 
-public class switchCase {
+public class SwitchCase {
 
     public static void main(String[] args) {
 

@@ -2,7 +2,7 @@ package day1;
 
 import static java.lang.Math.round;
 
-public class operator {
+public class Operator {
 
     public static void main(String[] args) {
 

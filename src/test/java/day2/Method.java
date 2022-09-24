@@ -1,6 +1,6 @@
 package day2;
 
-public class method {
+public class Method {
 
     public static void main(String[] args) {
 

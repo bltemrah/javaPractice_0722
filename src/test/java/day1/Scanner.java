@@ -1,13 +1,10 @@
 package day1;
 
-import java.util.Locale;
-import java.util.Scanner;
-
-public class scanner {
+public class Scanner {
 
     public static void main(String[] args) {
 
-        Scanner scan = new Scanner(System.in);
+        java.util.Scanner scan = new java.util.Scanner(System.in);
         System.out.println("Please enter your favorite software");
         String name = scan.next();
         System.out.println("Your favorite software is " + name);

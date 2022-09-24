@@ -1,6 +1,6 @@
 package day5;
 
-public class car {
+public class Car {
 
     private String color;
     private String model;
@@ -8,21 +8,21 @@ public class car {
     private int door;
 
 //    constructor
-    public car() {
+    public Car() {
 //        this.color = "No information";
 //        this.model = "No information";
 //        this.engine = 0;
 //        this.door = 0;
         this("No information","No information", 0, 0 );
     }
-    public car(String color, String model, double engine, int door) {
+    public Car(String color, String model, double engine, int door) {
         this.color = color;
         this.model = model;
         this.engine = engine;
         this.door = door;
 
     }
-    public car(String color, String model) {
+    public Car(String color, String model) {
         this(color, model, 0, 0);
     }
 

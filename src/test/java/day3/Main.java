@@ -1,10 +1,10 @@
 package day3;
 
-public class main {
+public class Main {
 
     public static void main(String[] args) {
 
-        car car1 = new car();
+        Car car1 = new Car();
 
         car1.color = "Black";
         car1.model = "Audi";

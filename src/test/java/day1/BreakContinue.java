@@ -2,7 +2,7 @@ package day1;
 
 import java.util.Scanner;
 
-public class breakContinue {
+public class BreakContinue {
 
     public static void main(String[] args) {
 

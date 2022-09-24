@@ -1,12 +1,12 @@
 package day5;
 
-public class main {
+public class Main {
 
     public static void main(String[] args) {
 
-        car car1 = new car("Blue", "Renault", 2.0, 3);
-        car car2 = new car ();
-        car car3 = new car("Orange", "Mercedes");
+        Car car1 = new Car("Blue", "Renault", 2.0, 3);
+        Car car2 = new Car();
+        Car car3 = new Car("Orange", "Mercedes");
 
         System.out.println("Car 1");
         car1.showInfo();
