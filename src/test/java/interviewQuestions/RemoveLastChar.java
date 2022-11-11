@@ -3,9 +3,8 @@ package interviewQuestions;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Scanner;
 
-class breakContinue {
+public class RemoveLastChar {
 
     public static void main(String[] args) {
 
@@ -28,15 +27,15 @@ class breakContinue {
 
 //    solution with Array
 
-    public static void removeCharacter (String str) {
+    public static void removeCharacter(String str) {
 
         List<String> myList = new ArrayList<String>(Arrays.asList(str.split("")));
 
-        String lastChar = myList.get(myList.size()-1);
+        String lastChar = myList.get(myList.size() - 1);
 
-        if (myList.get(myList.size()-1).equals(lastChar)) {
+        if (myList.get(myList.size() - 1).equals(lastChar)) {
 
-            myList.remove(myList.size()-1);
+            myList.remove(myList.size() - 1);
         }
 
         System.out.println(myList);
