@@ -1,7 +1,6 @@
 package day1;
 
-public class Scanner {
-
+public class Input {
     public static void main(String[] args) {
 
         java.util.Scanner scan = new java.util.Scanner(System.in);

@@ -1,5 +1,4 @@
-package replitQs.pattern;
-
+package replitQs.stringManupulation;
 
 public class Q90 {
 
@@ -12,12 +11,13 @@ public class Q90 {
 
         int count = 0;
 
-        for (int i=0; i<w.length()-1; i++ ) {
+        for (int i=0; i<w.length()-5; i++) {
 
-            if (w.substring(i, i+4).equalsIgnoreCase("java")) {
-
+            if (w.substring(i,(i+4)).equalsIgnoreCase("java")) {
                 count++;
             }
         }
+
+        System.out.println("The number of java is " + count);
     }
 }
